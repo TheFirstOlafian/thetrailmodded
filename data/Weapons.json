@@ -3,7 +3,7 @@
   {
     "id": 1,
     "animationId": 6,
-    "description": "A sword given to you by the Solus Town Village\nHeadman. It's light, making it easier to wield.",
+    "description": "A special sword crafted by H2sn0w, handed down through\nthe ages, with the power to slay the gods. Clearly.",
     "etypeId": 1,
     "traits": [
       {
@@ -13,17 +13,17 @@
       }
     ],
     "iconIndex": 147,
-    "name": "Squire Sword",
+    "name": "Godslayer",
     "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>",
     "params": [
-      0,
-      0,
-      4,
-      0,
-      0,
-      0,
-      0,
-      0
+      250, //hp
+      0, //mp
+      666, //attack
+      0, //defense
+      0, //magic attack
+      0, //magic defense
+      0, //agility 
+      0 //intelligence
     ],
     "price": 0,
     "wtypeId": 2
