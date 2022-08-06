@@ -16,14 +16,14 @@
     "name": "Godslayer",
     "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>",
     "params": [
-      250, //hp
-      0, //mp
-      666, //attack
-      0, //defense
-      0, //magic attack
-      0, //magic defense
-      0, //agility 
-      0 //intelligence
+      250, 
+      0, 
+      666, 
+      0,
+      0, 
+      0, 
+      0, 
+      0 
     ],
     "price": 0,
     "wtypeId": 2
