@@ -4209,8 +4209,8 @@
     "removeByWalking": false, 
     "restriction": 0,
     "name": "Always On Top",
-    "note": "<Custom Initiate Effect>\nvar traits = $dataEnemies[target._enemyId].traits;\nvar elementRates = [];\nfor (i = 0; i < traits.length; i++) {\n  if (traits[i].code === 11) elementRates.push (traits[i]);\n}\nelementRates.sort(function (a, b) {\n  a = a.value;\n  b = b.value;\n  return b - a;\n});\nelementId = elementRates[0].dataId;\n$gameTemp._addedElements = [];\n$gameTemp._addedElements.push(elementId);\n</Custom Initiate Effect>"
-     "overlay": 0,
-    "priority": 0,
-  },
+    "note": "<Custom Initiate Effect>\nvar traits = $dataEnemies[target._enemyId].traits;\nvar elementRates = [];\nfor (i = 0; i < traits.length; i++) {\n  if (traits[i].code === 11) elementRates.push (traits[i]);\n}\nelementRates.sort(function (a, b) {\n  a = a.value;\n  b = b.value;\n  return b - a;\n});\nelementId = elementRates[0].dataId;\n$gameTemp._addedElements = [];\n$gameTemp._addedElements.push(elementId);\n</Custom Initiate Effect>",
+    "overlay": 0,
+    "priority": 0
+  }
 ]
