@@ -2493,6 +2493,17 @@ Game_BattlerBase.prototype.stateResistSet = function() {
     return this.traitsSet(Game_BattlerBase.TRAIT_STATE_RESIST);
 };
 
+Game_BattlerBase.prototype.nonEquipStateResistSet = function() {
+    var traits = this.traits(Game_BattlerBase.TRAIT_STATE_RESIST);
+    var set = [];
+    for (i = 0; i < traits.length; i++) {
+        if (traits[i].value !== 2) set.push(traits[i]);
+    }
+    return set.reduce(function(r, trait) {
+        return r.concat(trait.dataId);
+    }, []);
+};
+
 Game_BattlerBase.prototype.isStateResist = function(stateId) {
     return this.stateResistSet().contains(stateId);
 };
@@ -2630,8 +2641,8 @@ Game_BattlerBase.prototype.maxTp = function() {
 };
 
 Game_BattlerBase.prototype.refresh = function() {
-    this.stateResistSet().forEach(function(stateId) {
-        // this.eraseState(stateId);
+    this.nonEquipStateResistSet().forEach(function(stateId) {
+        this.eraseState(stateId);
     }, this);
     this._hp = this._hp.clamp(0, this.mhp);
     this._mp = this._mp.clamp(0, this.mmp);
@@ -3919,6 +3930,9 @@ Game_Actor.prototype.levelUp = function() {
             this.learnSkill(learning.skillId);
         }
     }, this);
+    this.gainHp(Number.MAX_SAFE_INTEGER);
+    this.gainMp(Number.MAX_SAFE_INTEGER);
+    this.removeStateCategoryAll('debuff');
 };
 
 Game_Actor.prototype.levelDown = function() {
@@ -4302,6 +4316,14 @@ Game_Actor.prototype.meetsUsableItemConditions = function(item) {
     return Game_BattlerBase.prototype.meetsUsableItemConditions.call(this, item);
 };
 
+Game_Actor.prototype.bloodlustEquipped = function() {
+    weapons = this.weapons();
+    for (i = 0; i < weapons.length; i++) {
+        if (weapons[i].baseItemName.contains("Bloodlust")) return true;
+    }
+    return false;
+};
+
 //-----------------------------------------------------------------------------
 // Game_Enemy
 //
@@ -4368,11 +4390,7 @@ Game_Enemy.prototype.traitObjects = function() {
 };
 
 Game_Enemy.prototype.paramBase = function(paramId) {
-    if (paramId == 1) {
-        return Infinity;
-    } else {
-        return this.enemy().params[paramId];
-    }
+    return this.enemy().params[paramId];
 };
 
 Game_Enemy.prototype.exp = function() {
@@ -5217,6 +5235,47 @@ Game_Party.prototype.requestMotionRefresh = function() {
     this.members().forEach(function(actor) {
         actor.requestMotionRefresh();
     });
+};
+
+Game_Party.prototype.bloodlustOwned = function() {
+    members = this.members();
+    for (i = 0; i < members.length; i++) {
+        if (members[i].bloodlustEquipped) return true;
+    }
+    weapons = this.weapons();
+    for (i = 0; i < weapons.length; i++) {
+        if (weapons[i].baseItemName.contains("Bloodlust")) return true;
+    }
+    return false;
+};
+
+Game_Party.prototype.gildedPickaxe = function() {
+    if (this.hasItem($dataItems[210])) return true;
+    return false;
+};
+
+Game_Party.prototype.fortunatePickaxe = function() {
+    if (this.hasItem($dataItems[209])) return true;
+    if (this.gildedPickaxe()) return true;
+    return false;
+};
+
+Game_Party.prototype.fertilizingPickaxe = function() {
+    if (this.hasItem($dataItems[208])) return true;
+    if (this.fortunatePickaxe()) return true;
+    return false;
+};
+
+Game_Party.prototype.hasTelluriumPickaxe = function() {
+    if (this.hasItem($dataItems[184])) return true;
+    if (this.fertilizingPickaxe()) return true;
+    return false;
+};
+
+Game_Party.prototype.hasPickaxe = function() {
+    if (this.hasItem($dataItems[101])) return true;
+    if (this.hasTelluriumPickaxe()) return true;
+    return false;
 };
 
 //-----------------------------------------------------------------------------

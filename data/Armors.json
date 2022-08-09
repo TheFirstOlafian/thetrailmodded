@@ -1140,7 +1140,7 @@
       {
         "code": 14,
         "dataId": 42,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 272,
@@ -1524,7 +1524,7 @@
       {
         "code": 14,
         "dataId": 21,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 252,
@@ -1551,7 +1551,7 @@
       {
         "code": 14,
         "dataId": 20,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 283,
@@ -1578,7 +1578,7 @@
       {
         "code": 14,
         "dataId": 22,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 254,
@@ -1968,12 +1968,12 @@
       {
         "code": 14,
         "dataId": 33,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 36,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 501,
@@ -2304,7 +2304,7 @@
       {
         "code": 14,
         "dataId": 23,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 255,
@@ -2331,27 +2331,27 @@
       {
         "code": 14,
         "dataId": 21,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 20,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 22,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 23,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 56,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 511,
@@ -2378,37 +2378,37 @@
       {
         "code": 14,
         "dataId": 21,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 20,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 22,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 23,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 56,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 33,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 36,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 507,
@@ -2692,37 +2692,37 @@
       {
         "code": 14,
         "dataId": 21,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 20,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 22,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 23,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 56,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 33,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 36,
-        "value": 1
+        "value": 2
       },
       {
         "code": 22,
@@ -2869,7 +2869,7 @@
       {
         "code": 14,
         "dataId": 56,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 448,
@@ -2985,7 +2985,7 @@
       0,
       0,
       0,
-      10,
+      15,
       0,
       0,
       -5,
@@ -3446,7 +3446,7 @@
     ],
     "iconIndex": 477,
     "name": "Trailblazing Boots ★",
-    "note": "<Upgrade Slots: 2>\n\n<Synthesis Ingredients>\nTrailblazing Boots\nElemental Lace\nHRG Scroll\nFire Essence: 8\nIce Essence: 8\nEnchanted Dragon Scale: 2\nFrozen Core: 2\n</Synthesis Ingredients>\n<Mask Name: Super Strong Footwear>\n<Synthesis SE: Equip3>",
+    "note": "<Upgrade Slots: 2>\n\n<Synthesis Ingredients>\nTrailblazing Boots\nElemental Lace\nHRG Scroll\nFire Essence: 8\nIce Essence: 8\nEnchanted Dragon Scale: 2\nForest Core\nFrozen Core\n</Synthesis Ingredients>\n<Mask Name: Super Strong Footwear>\n<Synthesis SE: Equip3>",
     "params": [
       0,
       0,
@@ -3468,7 +3468,7 @@
       {
         "code": 14,
         "dataId": 39,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 632,
@@ -3526,7 +3526,7 @@
       0,
       0,
       0,
-      15,
+      10,
       0,
       0,
       -2,
@@ -3542,7 +3542,7 @@
     "traits": [],
     "iconIndex": 497,
     "name": "Tellurian Knight's Bulwark",
-    "note": "<Upgrade Slots: 2>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n\n<Synthesis Ingredients>\nTellurian Knight's Shield\nDEF Scroll ★\nThick-Skinned Herb: 5\nEnchanted Dragon Scale: 2\nFrozen Core: 2\n</Synthesis Ingredients>\n<Mask Name: Super Royal Heavy Shield>",
+    "note": "<Upgrade Slots: 2>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n\n<Synthesis Ingredients>\nTellurian Knight's Shield\nDEF Scroll ★\nThick-Skinned Herb: 5\nEnchanted Dragon Scale: 2\nForest Core\nFrozen Core\n</Synthesis Ingredients>\n<Mask Name: Super Royal Heavy Shield>",
     "params": [
       0,
       0,
@@ -3585,7 +3585,7 @@
       {
         "code": 14,
         "dataId": 88,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 3,
@@ -3612,7 +3612,7 @@
       {
         "code": 14,
         "dataId": 8,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 683,
@@ -3659,7 +3659,7 @@
     ],
     "iconIndex": 509,
     "name": "Glacial Bulwark",
-    "note": "<Upgrade Slots: 2>\n<Equip Requirement>\nclass: Knight\nclass: Mage\nclass: Cleric\n</Equip Requirement>\n\n<Synthesis Ingredients>\nCopper Buckler\nFrozen Core: 2\nIcy Gel: 10\nDisposable Hammer\n</Synthesis Ingredients>\n<Mask Name: Icy Shield>",
+    "note": "<Upgrade Slots: 2>\n<Equip Requirement>\nclass: Knight\nclass: Mage\nclass: Cleric\n</Equip Requirement>\n\n<Synthesis Ingredients>\nCopper Buckler\nFrozen Core: 3\nIcy Gel: 10\nDisposable Hammer\n</Synthesis Ingredients>\n<Mask Name: Icy Shield>",
     "params": [
       0,
       0,
@@ -4096,7 +4096,7 @@
       {
         "code": 14,
         "dataId": 94,
-        "value": 1
+        "value": 2
       }
     ],
     "iconIndex": 236,
@@ -4187,7 +4187,7 @@
       0,
       0
     ],
-    "price": 50
+    "price": 100
   },
   {
     "id": 159,
@@ -4198,20 +4198,20 @@
       {
         "code": 14,
         "dataId": 39,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 88,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 94,
-        "value": 1
+        "value": 2
       }
     ],
-    "iconIndex": 267,
+    "iconIndex": 709,
     "name": "Forest Exploration Kit",
     "note": "<Upgrade Slots: 1>\n\n<Synthesis Ingredients>\nCloth Mask\nStorm Lens\nBattle Plan\n</Synthesis Ingredients>\n<Mask Name: Nature Immunities>",
     "params": [
@@ -4245,7 +4245,7 @@
       0,
       0
     ],
-    "price": 250
+    "price": 100
   },
   {
     "id": 161,
@@ -4253,7 +4253,7 @@
     "description": "This book contains the writings of a\nholy being. Further boosts gained JP.",
     "etypeId": 6,
     "traits": [],
-    "iconIndex": 368,
+    "iconIndex": 712,
     "name": "Seshat's Tome",
     "note": "<JP Rate: 225%>\n<Upgrade Slots: 2>\n\n<Synthesis Ingredients>\nSeshat's Charm: 4\n</Synthesis Ingredients>\n<Mask Name: JP Increaser Tier 2>",
     "params": [
@@ -4266,16 +4266,16 @@
       0,
       0
     ],
-    "price": 1000
+    "price": 400
   },
   {
     "id": 162,
     "atypeId": 1,
-    "description": "The complete work of a god, holier than any\nmanmade text. Increases gained JP more than ever.",
+    "description": "Many lessons of Seshat have been written in the pages\nof this long read. Increases gained JP even more.",
     "etypeId": 6,
     "traits": [],
-    "iconIndex": 224,
-    "name": "Seshat's Opus",
+    "iconIndex": 713,
+    "name": "Seshat's Teachings",
     "note": "<JP Rate: 725%>\n<Upgrade Slots: 3>\n\n<Synthesis Ingredients>\nSeshat's Tome: 4\n</Synthesis Ingredients>\n<Mask Name: JP Increaser Tier 3>",
     "params": [
       0,
@@ -4287,7 +4287,7 @@
       0,
       0
     ],
-    "price": 4000
+    "price": 1600
   },
   {
     "id": 163,
@@ -4436,7 +4436,7 @@
     ],
     "iconIndex": 474,
     "name": "Hermes Boots",
-    "note": "<Upgrade Slots: 2>\n\n<Synthesis Ingredients>\nSpeedster Boots\nWind Catalyst\nEnchanted Bat Skin\nFeral Bat Wing: 10\nWind Essence: 15\nEnchanted Dragon Scale: 2\nFrozen Core: 2\n</Synthesis Ingredients>\n<Mask Name: Ridiculously Fast Footwear>\n<Synthesis SE: Equip3>",
+    "note": "<Upgrade Slots: 2>\n\n<Synthesis Ingredients>\nSpeedster Boots\nWind Catalyst\nEnchanted Bat Skin\nFeral Bat Wing: 10\nWind Essence: 15\nEnchanted Dragon Scale: 2\nForest Core\nFrozen Core\n</Synthesis Ingredients>\n<Mask Name: Ridiculously Fast Footwear>\n<Synthesis SE: Equip3>",
     "params": [
       0,
       0,
@@ -4479,12 +4479,12 @@
       {
         "code": 14,
         "dataId": 8,
-        "value": 1
+        "value": 2
       },
       {
         "code": 14,
         "dataId": 89,
-        "value": 1
+        "value": 2
       },
       {
         "code": 11,
@@ -4494,7 +4494,7 @@
     ],
     "iconIndex": 683,
     "name": "Warm Scarf ★",
-    "note": "<Upgrade Slots: 1>\n\n<Synthesis Ingredients>\nWarm Scarf\nFrozen Core: 2\nIce Cube: 50\nIce Essence: 10\n</Synthesis Ingredients>\n<Mask Name: Better Cold State Protection>\n<Synthesis SE: Equip3>",
+    "note": "<Upgrade Slots: 1>\n\n<Synthesis Ingredients>\nWarm Scarf\nFrozen Core: 3\nIce Cube: 50\nIce Essence: 10\n</Synthesis Ingredients>\n<Mask Name: Better Cold State Protection>\n<Synthesis SE: Equip3>",
     "params": [
       0,
       0,
@@ -4505,6 +4505,94 @@
       0,
       0
     ],
-    "price": 1000
+    "price": 500
+  },
+  {
+    "id": 171,
+    "atypeId": 1,
+    "description": "The complete work of a god, holier than any\nmanmade text. Increases gained JP to the max.",
+    "etypeId": 6,
+    "traits": [],
+    "iconIndex": 714,
+    "name": "Seshat's Opus",
+    "note": "<JP Rate: 3225%>\n<Upgrade Slots: 4>\n\n<Synthesis Ingredients>\nSeshat's Teachings: 4\n</Synthesis Ingredients>\n<Mask Name: JP Increaser Tier 4>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 6400
+  },
+  {
+    "id": 172,
+    "atypeId": 1,
+    "description": "From lush forests to frozen wastelands, you have conquered Telluria Field. Combines\nthe \\ia[159], \\ia[143], \\ia[158], and \\ia[170].",
+    "etypeId": 6,
+    "traits": [
+      {
+        "code": 14,
+        "dataId": 39,
+        "value": 2
+      },
+      {
+        "code": 14,
+        "dataId": 88,
+        "value": 2
+      },
+      {
+        "code": 14,
+        "dataId": 94,
+        "value": 2
+      },
+      {
+        "code": 14,
+        "dataId": 8,
+        "value": 2
+      },
+      {
+        "code": 14,
+        "dataId": 89,
+        "value": 2
+      },
+      {
+        "code": 11,
+        "dataId": 3,
+        "value": 0.6
+      },
+      {
+        "code": 11,
+        "dataId": 6,
+        "value": 0.8
+      },
+      {
+        "code": 11,
+        "dataId": 7,
+        "value": 0.8
+      },
+      {
+        "code": 31,
+        "dataId": 12,
+        "value": 1
+      }
+    ],
+    "iconIndex": 354,
+    "name": "Bionomic Globe",
+    "note": "<Synthesis Ingredients>\nForest Exploration Kit\nSnow Globe\nBat Sling\nWarm Scarf ★\nEnchanted Dragon Scale: 3\nForest Core: 5\nFrozen Core: 5\nEarth Essence: 10\nWind Essence: 10\nIce Essence: 10\n</Synthesis Ingredients>\n<Mask Name: Telluria Field Conquerer>",
+    "params": [
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "price": 4000
   }
 ]

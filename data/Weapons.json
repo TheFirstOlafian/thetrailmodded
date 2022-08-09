@@ -5,24 +5,25 @@
     "animationId": 6,
     "description": "A special sword crafted by H2sn0w, handed down through\nthe ages, with the power to slay the gods. Clearly.",
     "etypeId": 1,
-    "traits": 
+    "traits": [
       {
-          "code": 43,
-          "dataId": 127, 
-          "value": 0
-      },
+        "code": 43,
+        "dataId": 132,
+        "value": 0
+      }
+    ],
     "iconIndex": 147,
     "name": "Godslayer",
     "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74, 125>",
     "params": [
-      250, 
-      0, 
-      666, 
+      250,
       0,
-      0, 
-      0, 
-      0, 
-      0 
+      666,
+      0,
+      0,
+      0,
+      0,
+      0
     ],
     "price": 0,
     "wtypeId": 2
@@ -1701,7 +1702,7 @@
     ],
     "iconIndex": 545,
     "name": "Frost Edge",
-    "note": "<Upgrade Slots: 2>\n<Weapon Image: 373>\n<Equip Requirement>\nclass: Rogue\n</Equip Requirement>\n\n<Synthesis Ingredients>\nSacrificial Dagger\nSwift\nFrozen Core: 3\nDisposable Hammer\nIce Essence: 5\n</Synthesis Ingredients>\n<Mask Name: Chilling Blade>",
+    "note": "<Upgrade Slots: 2>\n<Weapon Image: 373>\n<Equip Requirement>\nclass: Rogue\n</Equip Requirement>\n\n<Synthesis Ingredients>\nSacrificial Dagger\nSwift\nFrozen Core: 5\nDisposable Hammer\nIce Essence: 5\n</Synthesis Ingredients>\n<Mask Name: Chilling Blade>",
     "params": [
       0,
       0,
@@ -1775,7 +1776,7 @@
     "note": "<Upgrade Slots: 3>\n<Weapon Image: 25>\n<Equip Requirement>\nclass: Mage\n</Equip Requirement>\n\n<Synthesis Ingredients>\nBlank Tome\nMAT Scroll ★: 2\nDisposable Hammer: 5\nEnchanting Crystal: 10\nTellurium Alloy: 6\n</Synthesis Ingredients>\n<Mask Name: Alloy-Based Book>",
     "params": [
       0,
-      120,
+      250,
       3,
       0,
       35,

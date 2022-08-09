@@ -3,7 +3,7 @@
 - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - - -
 Alpha 15 (??/??/????)
 APOCALYPSE
-Current Level Cap: 25
+Current Level Cap: 30
 - - - - - - - - - - - - -
 Sometimes I get tired of repeating myself over and over again, but am I wrong to say that every major update has been the best one yet? If we're ignoring the pre-Alpha 11 days, then no, I'm not wrong, and Alpha 15 further solidifies this point.
 Building off of the heavy overhauls introduced in Alpha 14, this brand new update focuses on a TON of new content that fits with the new standards. Whether it be juicy lore, fresh dungeons, brand new concepts, new explorations of equipment and mechanics, and even more... it's content! So much great content!
@@ -29,15 +29,15 @@ Additions:
  - Added Discord rich presence support.
  - Added 18 new player skills:
   ~ Player 1, 4 skills:
-   > Heavenswield: Magic skill learned at level 20 (replaces Bide).
-   >
+   > [P] Innate Magic: Passive skill learned at level 20.
+   > Taunt: Special skill learned at level 22.
    > [P] Steadfast: Passive skill learned at level 24.
-   >
+   > Heavenswield: Magic skill learned at level 25 (replaces Bide).
   ~ Player 2, 4 skills:
    > Ice II: Magic skill learnable at level 20 via the skill learn menu.
    > [P] Fortitude: Passive skill learned at level 21.
    > Magical Breeze: Magic skill learned at level 23.
-   >
+   > [P] Topped Off: Passive skill learned at level 25.
   ~ Player 3, 5 skills:
    > Dispell: Magic skill learnable at level 15 via the skill learn menu.
    > Group Heal: Magic skill learned at level 17 (replaces Blood Boost, mastery levels will be migrated).
@@ -52,7 +52,7 @@ Additions:
    > Dark Orb
    > Ice II
    > Wyvern's Fury
- - Added 87 new items:
+ - Added 90 new items:
   ~ 7 recovery/buff items:
    > Well-Rounded Combination
    > Large Potion
@@ -72,7 +72,7 @@ Additions:
    > Wheat Seeds
    > Oat Seeds
    > Tomato Seeds
-  ~ 29 materials:
+  ~ 32 materials:
    > Fiery Powder
    > Malicious Essence
    > Shadowspec Ingot
@@ -89,10 +89,13 @@ Additions:
    > Petrified Wood
    > Dragon Scale
    > Enchanted Dragon Scale
+   > Forest Core
    > Wind Catalyst
    > Icy Gel
    > Ice Cube
+   > Frozen Jewel
    > Frozen Core
+   > Ectoplasm
    > Tellurium Dust
    > Tellurium Alloy
    > Life Crystal
@@ -146,7 +149,7 @@ Additions:
    > [REDACTED HELMET]
    > [REDACTED TEAR]
    > [REDACTED WING]
- - Added 83 new equipment items:
+ - Added 84 new equipment items:
   ~ 17 weapons:
    > Steel Knuckles
    > Shadowspec Sword
@@ -198,7 +201,7 @@ Additions:
    > Tellurian Knight's Bulwark
    > Vishnu's Aegis
    > Glacial Bulwark
-  ~ 21 accessories:
+  ~ 23 accessories:
    > Champion's Talisman
    > Soulstealer's Necklace
    > Vigilante's Charm
@@ -208,6 +211,7 @@ Additions:
    > Flytrap Fang
    > Flytrap Eye
    > Battle Plan
+   > Cloth Mask
    > Forest Exploration Kit
    > Scaly Gloves
    > Dragonforce Gauntlets
@@ -216,9 +220,10 @@ Additions:
    > Warm Scarf ★
    > Snow Jacket
    > Snow Globe
-   > Cloth Mask
+   > Bionomic Globe
    > Seshat's Charm
    > Seshat's Tome
+   > Seshat's Teachings
    > Seshat's Opus
   ~ 9 magic equips:
    > Comet Charm
@@ -247,9 +252,9 @@ Additions:
   ~ [REDACTED GENERAL]
   ~ Darkhound
   ~ Beet Boxer
-  ~ Feral Bat
   ~ Baby Turtle
   ~ Giant Turtle
+  ~ Feral Bat
   ~ Wind Spirit
   ~ Flytrap
   ~ Horrorspore
@@ -287,6 +292,8 @@ Changes:
  - Skill families will now be condensed into a single dropdown. Old save patching must be enabled when updating for this to work properly.
  - Completed the salvaging system. Many items throughout the entire game are now salvageable, making the system much more relevant.
  - Greatly reduced respawn timers of most time-based respawnables.
+ - Leveling up will also remove all debuffs.
+ - Victory aftermath now shows if a learnable skill has become available by leveling up.
  - Changed up the preloader / title screen background.
  - Reverted most dungeons back to the old dungeon map border style (same as the indoors style).
  - Many shops have had their stock changed. Some enemy drop pools have also been adjusted.
@@ -328,6 +335,9 @@ Balancing:
  - Wand Impulse and Backstab now only heavily decrease MAT/ATK (respectively) for 2 turns instead of 3.
  - Channel Divinity I and Cure II's learn levels have been swapped to now be learned at levels 8 and 11, respectively.
  - Greatly increased earned JP from all sources.
+ - Skill mastery's effect is 1.5x what it was previously.
+ - Henry can now be killed without entering his second phase; however, he now enters his second phase at 40% HP instead of 30%.
+ - Buffed the drop rate of all resistance accessories from 2% to 3.33%.
  - Nerfed The Warden's Trade-off from -10% MDR, +10% PDR to -5% MDR, +20% PDR
  - Nerfed Giant Goblin's Rage's ATK increase from +20% to +10%.
  - Nerfed the Rogue class's base HIT, EVA, and CRI by 1% each.
@@ -335,11 +345,15 @@ Balancing:
  - Nerfed Mana Refund's return to 1% of damage dealt (was originally 5%).
  - Nerfed Foresight's MP cost to 12 MP (was originally 8 MP).
  - Nerfed Inspire's effect from +12% ATK and MAT to +10% ATK and MAT.
+ - Nerfed Gust ATK multiplier from 600% to 500%.
+ - Nerfed Bat's ATK from 17 to 15.
  - Increased price of Metal Wristbraces ★ from 180B to 300B.
+ - Increased Critical Heal I's max effectiveness from +10% to +20%.
  - Gave Bloodlust +2% PLS.
  - Nerfed CRI of Red Mask from +2% to +1%.
  - Reworked Blood-Red Headband to grant +0.5% PLS and +3 AGI rather than +4% MHP and +3% CRI. Price has increased from 80B to 120B
  - Buffed the drop chance of rare enemy accessories from 1/3 to 1/2.
+ - Greatly increased Bit drops from all Blazing Sands enemies to account for high shop prices in Telluria Castle Town.
  - Ethers no longer require Bits to craft. Their price has been adjusted accordingly.
  - Buffed the Knight's Greaves' DEF by 1 and AGI by 2 and also gave them +0.5% EVA and +0.5% CRI to be able to compete with the Leather Boots.
  - All levels of Well Fed increase ATK and MAT by +2%, +4%, and +6% at each respective level (respectively).
@@ -356,14 +370,15 @@ Bug Fixes:
  - Fixed a bug where the little loot explosion after defeating an enemy sometimes did not show the correct drops.
  - Fixed a bug where some mid-battle boss monologues would interrupt turns or even action sequences instead of playing between turns.
  - Fixed a bug where party members would rarely not gain BP between the 1st and 2nd turn of a battle.
+ - Fixed a bug where retrying a battle would cause items from previous attempts to show up on the dropped item window at the end of battle. This was only a visual bug.
  - Fixed a bug where the Suffering Soul had only 25% physical element damage reduction rather than the intended 50%.
  - Fixed a bug where Brawl Brew and Warding Swig would not bypass death removal.
  - Fixed a bug where On Fire!'s damage at the end of every turn was half of the intended value.
+ - Fixed a bug where states with no overlay would override states with an overlay if they had a higher priority value.
  - Fixed a bug where AP would be shown on all character menus, when it was only meant to show on the main menu and stat allocation menu.
  - Fixed a bug where life steal attributes with decimals would not be parsed correctly.
  - Fixed a bug where playtime wouldn't increase correctly on non-60hz displays.
  - Fixed a bug where the crafted weapons/armor counters could be wrong.
- - Fixed a bug where some resistance accessory drop rates were lower than intended (1% instead of 2%).
  - Fixed a bug where elemental weapons did not count as physical-elemental hits.
  - Fixed a bug where INT slightly affected state application rates.
  - Fixed a bug where Flashbang could leave an enemy at 0 HP but it wouldn't die until another action was made.
