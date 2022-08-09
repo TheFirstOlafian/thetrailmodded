@@ -4633,7 +4633,7 @@
         "indent": 3,
         "parameters": [
           {
-            "name": "a_Woosh",
+            "name": "Woosh",
             "volume": 90,
             "pitch": 150,
             "pan": 0
@@ -12068,6 +12068,49 @@
         "indent": 1,
         "parameters": [
           "care of the alarm bear."
+        ]
+      },
+      {
+        "code": 0,
+        "indent": 1,
+        "parameters": []
+      },
+      {
+        "code": 412,
+        "indent": 0,
+        "parameters": []
+      },
+      {
+        "code": 111,
+        "indent": 0,
+        "parameters": [
+          12,
+          "$gameSystem.isQuestObjectiveCompleted(4, 9) && $gameVariables.value(55) < 32"
+        ]
+      },
+      {
+        "code": 356,
+        "indent": 1,
+        "parameters": [
+          "Quest 4 Complete Objective 10"
+        ]
+      },
+      {
+        "code": 356,
+        "indent": 1,
+        "parameters": [
+          "Quest 4 Show Objective 11"
+        ]
+      },
+      {
+        "code": 122,
+        "indent": 1,
+        "parameters": [
+          55,
+          55,
+          0,
+          0,
+          32
         ]
       },
       {

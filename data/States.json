@@ -2035,9 +2035,15 @@
     "id": 59,
     "autoRemovalTiming": 2,
     "chanceByDamage": 100,
-    "traits": [],
+    "traits": [
+      {
+        "code": 23,
+        "dataId": 0,
+        "value": 2
+      }
+    ],
     "iconIndex": 30,
-    "maxTurns": 4,
+    "maxTurns": 5,
     "message1": "",
     "message2": "",
     "message3": "",
@@ -2045,7 +2051,7 @@
     "minTurns": 4,
     "motion": 0,
     "name": "Taunt",
-    "note": "",
+    "note": "<Category: buff>\n<Help Description>\nBoosts AGR by 100%.\n</Help Description>",
     "overlay": 0,
     "priority": 30,
     "removeAtBattleEnd": true,
@@ -3128,7 +3134,7 @@
     "minTurns": 3,
     "motion": 0,
     "name": "Future Sight",
-    "note": "<Help Description>\nThis unit will take heavy damage after this state expires. Bypasses barriers.\n</Help Description>\n<Barrier Penetration: +100%>\n\n<Custom Remove Effect>\nuser.startAnimation(236);\nuser.gainHp(-(Math.round((user.hp * 0.75))));\n</Custom Remove Effect>\n\n<Cannot Select: Skill 116>",
+    "note": "<Help Description>\nThis unit will take heavy damage after this state expires. Bypasses barriers.\n</Help Description>\n<Barrier Penetration: +100%>\n\n<Custom Remove Effect>\nuser.startAnimation(236);\nuser.gainHp(-(Math.round((user.mhp * 0.75))));\n</Custom Remove Effect>\n\n<Cannot Select: Skill 116>",
     "overlay": 9,
     "priority": 70,
     "removeAtBattleEnd": true,
