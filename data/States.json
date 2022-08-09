@@ -4200,7 +4200,7 @@
     "stepsToRemove": 100
   },
   {
-    "id": 666,
+    "id": 125,
     "autoRemovalTiming": 0,
     "removeAtBattleEnd": true,
     "removeByDamage": false, 
