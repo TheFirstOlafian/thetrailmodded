@@ -7,14 +7,14 @@
     "etypeId": 1,
     "traits": [
       {
-        "code": 31,
-        "dataId": 1,
-        "value": 0
-      }  
+          "code": 43,
+          "dataId": 666, 
+          "value": 0
+      },
     ],
     "iconIndex": 147,
     "name": "Godslayer",
-    "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74>\n<Passive State: 666>",
+    "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74, 666>",
     "params": [
       250, 
       0, 
