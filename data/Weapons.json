@@ -5,13 +5,12 @@
     "animationId": 6,
     "description": "A special sword crafted by H2sn0w, handed down through\nthe ages, with the power to slay the gods. Clearly.",
     "etypeId": 1,
-    "traits": [
+    "traits": 
       {
           "code": 43,
           "dataId": 127, 
           "value": 0
-      }
-    ],
+      },
     "iconIndex": 147,
     "name": "Godslayer",
     "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74, 125>",
