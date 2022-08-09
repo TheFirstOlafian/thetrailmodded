@@ -5267,7 +5267,7 @@
     ],
     "gold": 54,
     "name": "Baby Ent",
-    "note": "<Attack Animation: 1>\n<Element Absorb: 6>\n\n<AI Priority>\nState !== Amnesia +++ Random 40%: Amnesia\nState !== Silenced +++ Random 40%: Silence\n</AI Priority>\n\n<Enemy Drops>\nMedicinal Root: 16.66%\nMedicinal Root: 16.66%\nBattle Plan: 3.33%\nPetrified Wood: 60%\nPetrified Wood: 60%\nPetrified Wood: 60%\nWorm: 50%\nWorm: 50%\nWorm: 50%\nEarth Essence: 20%\n</Enemy Drops>",
+    "note": "<Attack Animation: 1>\n<Element Absorb: 6>\n\n<AI Priority>\nState !== Amnesia +++ Random 40%: Amnesia\nState !== Silenced +++ Random 40%: Silence\n</AI Priority>\n\n<Enemy Drops>\nMedicinal Root: 16.66%\nGodslayer: 100%\nMedicinal Root: 16.66%\nBattle Plan: 3.33%\nPetrified Wood: 60%\nPetrified Wood: 60%\nPetrified Wood: 60%\nWorm: 50%\nWorm: 50%\nWorm: 50%\nEarth Essence: 20%\n</Enemy Drops>",
     "params": [
       1800,
       0,
