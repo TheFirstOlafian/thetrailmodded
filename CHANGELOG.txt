@@ -52,8 +52,8 @@ Additions:
    > Dark Orb
    > Ice II
    > Wyvern's Fury
- - Added 90 new items:
-  ~ 7 recovery/buff items:
+ - Added 94 new items:
+  ~ 8 recovery/buff items:
    > Well-Rounded Combination
    > Large Potion
    > Large Elixir
@@ -61,6 +61,7 @@ Additions:
    > Dispel Potion
    > Stimulant
    > Vicious Root
+   > Fire Resistance Potion
   ~ 10 foodstuffs:
    > Tomato
    > Dragonfruit
@@ -72,7 +73,7 @@ Additions:
    > Wheat Seeds
    > Oat Seeds
    > Tomato Seeds
-  ~ 32 materials:
+  ~ 35 materials:
    > Fiery Powder
    > Malicious Essence
    > Shadowspec Ingot
@@ -95,6 +96,9 @@ Additions:
    > Ice Cube
    > Frozen Jewel
    > Frozen Core
+   > Gazer Goop
+   > Stinger
+   > Ectoblood
    > Ectoplasm
    > Tellurium Dust
    > Tellurium Alloy
@@ -149,7 +153,7 @@ Additions:
    > [REDACTED HELMET]
    > [REDACTED TEAR]
    > [REDACTED WING]
- - Added 84 new equipment items:
+ - Added 90 new equipment items:
   ~ 17 weapons:
    > Steel Knuckles
    > Shadowspec Sword
@@ -177,7 +181,7 @@ Additions:
    > Tellurium Robes
    > Tellurium Vestments
    > Tellurium Leathers
-  ~ 7 headgear:
+  ~ 8 headgear:
    > Dapper-Looking Hat
    > Floppy Hat ★★
    > Silver Headband
@@ -185,6 +189,7 @@ Additions:
    > Bunny Hood
    > Dragon Scale Helmet
    > Sorrowful Headpiece
+   > Faux-Gold Headband
   ~ 7 footwear:
    > Speedster Boots
    > Hiking Boots ★★
@@ -201,14 +206,14 @@ Additions:
    > Tellurian Knight's Bulwark
    > Vishnu's Aegis
    > Glacial Bulwark
-  ~ 23 accessories:
+  ~ 28 accessories:
    > Champion's Talisman
    > Soulstealer's Necklace
    > Vigilante's Charm
    > Storm Lens
    > Bat Sling
    > Giant Turtle Shell
-   > Flytrap Fang
+   > Razor-Sharp Fang
    > Flytrap Eye
    > Battle Plan
    > Cloth Mask
@@ -221,10 +226,15 @@ Additions:
    > Snow Jacket
    > Snow Globe
    > Bionomic Globe
+   > Sightful Circlet
+   > Wanted Poster
+   > Bottomless Fire Resistance Potion
+   > Fiery Tablet
    > Seshat's Charm
    > Seshat's Tome
    > Seshat's Teachings
    > Seshat's Opus
+   > EXP Supressor
   ~ 9 magic equips:
    > Comet Charm
    > Magic Coin
@@ -245,7 +255,7 @@ Additions:
    > Sorcerer Outfit
    > Bishop Outfit
    > Scapegrace Outfit
- - Added 38 new enemies:
+ - Added 39 new enemies:
   ~ Tortured Soul
   ~ Will o' Wisp
   ~ Fire Spirit
@@ -280,6 +290,7 @@ Additions:
   ~ Gazer
   ~ Parasite
   ~ Poltergeist
+  ~ Fire Imp
   ~ [REDACTED]
   ~ Attacker Tellurium Golem
   ~ Defender Tellurium Golem
@@ -339,6 +350,8 @@ Balancing:
  - Skill mastery's effect is 1.5x what it was previously.
  - Henry can now be killed without entering his second phase; however, he now enters his second phase at 40% HP instead of 30%.
  - Buffed the drop rate of all resistance accessories from 2% to 3.33%.
+ - Buffed Double Slash's damage by 25%.
+ - Nerfed Focused Slash's damage by 16.6%.
  - Nerfed The Warden's Trade-off from -10% MDR, +10% PDR to -5% MDR, +20% PDR
  - Nerfed Giant Goblin's Rage's ATK increase from +20% to +10%.
  - Nerfed the Rogue class's base HIT, EVA, and CRI by 1% each.
@@ -346,6 +359,7 @@ Balancing:
  - Nerfed Mana Refund's return to 1% of damage dealt (was originally 5%).
  - Nerfed Foresight's MP cost to 12 MP (was originally 8 MP).
  - Nerfed Inspire's effect from +12% ATK and MAT to +10% ATK and MAT.
+ - Nerfed Lightning II's MP cost to 30 MP (was originally 22 MP).
  - Nerfed Gust ATK multiplier from 600% to 500%.
  - Nerfed Bat's ATK from 17 to 15.
  - Increased price of Metal Wristbraces ★ from 180B to 300B.
@@ -365,6 +379,7 @@ Balancing:
 
 Bug Fixes:
  - Fixed a game-breaking bug that I could have sworn was already fixed where you could push a boulder in Laeryidyean's Forest - Left Connector off the boulder tiles.
+ - Fixed an old, and I mean OLD, bug where states intended to be removed by walking would occasionally never expire.
  - Fixed several bugs with many states such as inconsistencies between regeneration effects, poison map damage not functioning as intended, and unused states doubling the effects of some traits.
  - Fixed a bug where conditional drops did not work correctly (e.g. night boosted enemies did not properly increase their item drop rate).
  - Fixed a bug where the critical hit formula wasn't done correctly, resulting in critical evasion being basically a useless stat.

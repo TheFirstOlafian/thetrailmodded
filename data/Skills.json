@@ -80,11 +80,11 @@
     "damage": {
       "critical": true,
       "elementId": -1,
-      "formula": "a.atk * 6 - b.def * 2",
+      "formula": "a.atk * 5 - b.def * 2",
       "type": 1,
       "variance": 5
     },
-    "description": "Take a second or two to think before you attack. As a result, your\ndamage and CRI will be boosted. The hit always lands. \\c[27]\\bpdamage[600]%\\c[0] ATK rate.",
+    "description": "Take a second or two to think before you attack. As a result, your\ndamage and CRI will be boosted. The hit always lands. \\c[27]\\bpdamage[500]%\\c[0] ATK rate.",
     "effects": [
       {
         "code": 21,
@@ -197,11 +197,11 @@
     "damage": {
       "critical": true,
       "elementId": -1,
-      "formula": "a.atk * 4 - b.def * 2",
+      "formula": "a.atk * 5 - b.def * 2",
       "type": 1,
       "variance": 5
     },
-    "description": "Slice up an enemy in a V-shape. Deal damage fast - now that's\nthe true meaning of efficiency! \\c[27]\\bpdamage[400]%\\c[0] ATK rate.",
+    "description": "Slice up an enemy in a V-shape. Deal damage fast - now that's\nthe true meaning of efficiency! \\c[27]\\bpdamage[500]%\\c[0] ATK rate.",
     "effects": [
       {
         "code": 21,
@@ -2248,7 +2248,7 @@
     "iconIndex": 98,
     "message1": " casts %1!",
     "message2": "",
-    "mpCost": 22,
+    "mpCost": 30,
     "name": "Lightning II",
     "note": "<Boost Damage>\n<Hide if Learned Skill: 98>\n\n<Remove State Category: Water>\n<Remove State Category: Wind>\n\n<action copy: skill:9>\n\n<Damage Formula>\n// Set the chain multiplier to a value if it doesn't exist.\nthis._chainmultiplier = this._chainmultiplier || 1.0;\n// This is the damage formula.\nvalue = a.mat * 4.25 - b.mdf * 2;\n// Apply the chain multiplier to the damage formula.\nvalue *= this._chainmultiplier;\n// Reduce the chain multiplier per target.\nthis._chainmultiplier *= 0.5;\n</Damage Formula>\n\n<Custom Target Eval>\n// Fix for #9\nif (user.isEnemy()) {\n  id = Math.floor(Math.random() * foes.aliveMembers().length);\n  target = foes.aliveMembers()[id];\n}\n// Adds the selected target to the target list.\ntargets.push(target);\n// Grab the group of alive foes as candidates.\nvar members = foes.aliveMembers();\n// Remove the target from the group of candidates.\nmembers.splice(members.indexOf(target), 1);\n// This is the number of extra targets to select with Chain Lightning.\nvar extraTargets = 2\n// Loop the extra targets.\nwhile (extraTargets--) {\n  // Grab a random foe from the alive foes.\n  var member = members[Math.floor(Math.random() * members.length)];\n  // Check to see if the member exists.\n  if (member) {\n    // Add the member to the group of targets.\n    targets.push(member);\n    // Remove the member as a viable candidate.\n    members.splice(members.indexOf(member), 1);\n  }\n}\n</Custom Target Eval>",
     "occasion": 1,
@@ -3952,7 +3952,7 @@
     "iconIndex": 684,
     "message1": " imbues their weapon with light!",
     "message2": "",
-    "mpCost": 15,
+    "mpCost": 30,
     "name": "Heavenswield",
     "note": "<setup action>\ndisplay action\nperform start\nmotion cast: user\nwait: 30\nmotion spell: user\nwait for motion\n</setup action>\n\n<whole action>\nanimation 258: user\nwait for animation\naction animation\nanimation 50: user\nwait for animation\n</whole action>\n\n<target action>\naction effect\nwait for effect\n</target action>\n\n<finish action>\nclear battle log\nperform finish\n</finish action>",
     "occasion": 1,
@@ -4577,6 +4577,123 @@
   },
   {
     "id": 132,
+    "animationId": 61,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 21,
+        "value1": 1,
+        "value2": 0
+      },
+      {
+        "code": 21,
+        "dataId": 94,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 612,
+    "message1": " casts %1!",
+    "message2": "",
+    "mpCost": 0,
+    "name": "Disable",
+    "note": "<Boost Turns>\n\n<target action>\nperform start\nmotion chant: user\nwait: 45\nmotion spell: user\naction animation\nanimation 269: target\nwait for animation\naction effect\nwait for effect\nwait: 30\nperform finish\n</target action>",
+    "occasion": 1,
+    "repeats": 1,
+    "requiredWtypeId1": 0,
+    "requiredWtypeId2": 0,
+    "scope": 1,
+    "speed": 0,
+    "stypeId": 1,
+    "successRate": 100,
+    "tpCost": 0,
+    "tpGain": 0
+  },
+  {
+    "id": 133,
+    "animationId": 11,
+    "damage": {
+      "critical": true,
+      "elementId": 1,
+      "formula": "a.atk * 3 - b.def * 2",
+      "type": 1,
+      "variance": 5
+    },
+    "description": "",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 39,
+        "value1": 0.5,
+        "value2": 0
+      }
+    ],
+    "hitType": 1,
+    "iconIndex": 326,
+    "message1": " casts %1!",
+    "message2": "",
+    "mpCost": 0,
+    "name": "Stingers",
+    "note": "<setup action>\ndisplay action\nperform start\nmotion skill: user\nwait: 30\n</setup action>\n\n<whole action>\naction animation\nshake screen: 2, 9, 30\nwait for animation\n</whole action>\n\n<target action>\naction effect\nwait for effect\nwait: 30\n</target action>\n\n<finish action>\nclear battle log\nperform finish\n</finish action>",
+    "occasion": 1,
+    "repeats": 1,
+    "requiredWtypeId1": 0,
+    "requiredWtypeId2": 0,
+    "scope": 4,
+    "speed": 0,
+    "stypeId": 1,
+    "successRate": 100,
+    "tpCost": 0,
+    "tpGain": 0
+  },
+  {
+    "id": 134,
+    "animationId": 216,
+    "damage": {
+      "critical": false,
+      "elementId": 0,
+      "formula": "0",
+      "type": 0,
+      "variance": 20
+    },
+    "description": "",
+    "effects": [
+      {
+        "code": 21,
+        "dataId": 82,
+        "value1": 1,
+        "value2": 0
+      }
+    ],
+    "hitType": 0,
+    "iconIndex": 430,
+    "message1": " exposes everyone's weak points!",
+    "message2": "",
+    "mpCost": 8,
+    "name": "Nasty Glare",
+    "note": "<Boost Turns>\n\n<setup action>\nimmortal: targets, true\ndisplay action\nperform start\nmotion skill: user\nwait: 60\n</setup action>\n\n<whole action>\naction animation\nwait for animation\n</whole action>\n\n<target action>\naction effect\nclear battle log\nwait for effect\nwait: 15\n</target action>\n\n<follow action>\n</follow action>\n\n<finish action>\nimmortal: targets, false\nclear battle log\nperform finish\n</finish action>",
+    "occasion": 1,
+    "repeats": 1,
+    "requiredWtypeId1": 0,
+    "requiredWtypeId2": 0,
+    "scope": 2,
+    "speed": 0,
+    "stypeId": 1,
+    "successRate": 100,
+    "tpCost": 0,
+    "tpGain": 0
+  },
+  {
+    "id": 135,
     "animationId": 93,
     "damage": {
       "critical": true,

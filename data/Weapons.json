@@ -13,13 +13,13 @@
       },
       {
         "code": 43,
-        "dataId": 132,
+        "dataId": 135,
         "value": 0
       }
     ],
     "iconIndex": 147,
     "name": "Godslayer",
-    "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74, 125>",
+    "note": "<Can Sell>\n<Equip Requirement>\nclass: Knight\n</Equip Requirement>\n<Passive State: 74, 127>",
     "params": [
       250,
       0,
@@ -241,7 +241,7 @@
         "value": 0
       }
     ],
-    "iconIndex": 416,
+    "iconIndex": 723,
     "name": "Orb Wand",
     "note": "<Upgrade Slots: 1>\n<Weapon Image: 121>\n<Equip Requirement>\nclass: Mage\n</Equip Requirement>",
     "params": [
@@ -1093,7 +1093,7 @@
     ],
     "iconIndex": 341,
     "name": "Origin Crystal",
-    "note": "<Upgrade Slots: 10>\n<mat: +900>\n<Cannot Sell>\n\n<Equip Requirement>\nclass: Mage\nlevel >= 25\n</Equip Requirement>",
+    "note": "<Upgrade Slots: 10>\n<mat: +900>\n<Cannot Sell>\n\n<Equip Requirement>\nclass: Mage\nswitch: 100\n</Equip Requirement>",
     "params": [
       200,
       700,
